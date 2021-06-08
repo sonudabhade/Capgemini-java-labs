@@ -1,3 +1,5 @@
+//:  Validate the age of a person and display proper message by using user defined exception.
+//Age of a person should be above 15.
 package com.java.labs5;
 
 import java.util.Scanner;
