@@ -4,14 +4,22 @@ import java.util.Scanner;
 
 class NameNotValidException extends Exception
 {
-     public String validname()
+     
+	private static final long serialVersionUID = 1L;
+
+	public String validname()
      {
           return ("Name is not Valid....Please ReEnter the Name");
      }
 }
 class BlankNameNotValidException extends Exception
 {
-     public String blankName()
+     /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	public String blankName()
      {
           return ("Name should not be Blanked");
      }
